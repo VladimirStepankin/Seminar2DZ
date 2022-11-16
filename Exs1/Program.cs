@@ -10,7 +10,7 @@ if (number < 100 || number > 999)
 }
 else
 {
-    int SecondNumber = (number % 100 - number % 10) / 10;
+    int SecondNumber = (number % 100) /10;
     Console.Write(SecondNumber);
 }
 int ReadInt(string messadge)
